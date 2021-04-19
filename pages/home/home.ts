@@ -20,9 +20,9 @@ export class HomePage {
 
     if (this.bmi < 18.5) {
       this.bmiMessage = "Underweight";
-    } else if (this.bmi > 18.5 && this.bmi < 25) {
+    } else if (this.bmi >= 18.5 && this.bmi < 25) {
       this.bmiMessage = "Normal";
-    } else if (this.bmi > 25 && this.bmi < 30) {
+    } else if (this.bmi >= 25 && this.bmi < 30) {
       this.bmiMessage = "Overweight"; 
     } else {
       this.bmiMessage = "Obese";
